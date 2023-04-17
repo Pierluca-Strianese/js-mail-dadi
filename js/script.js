@@ -15,7 +15,9 @@ for (let i=0; i < mail_Arr.length; i++) {
 
     if (mail_Arr[i] == mail) {
         console.log ("la mail è presente");
-        break;
     }
-    
+    else if(i+1 == mail_Arr.length) {
+            console.log ("la mail non è presente");
+    }
+
 }
